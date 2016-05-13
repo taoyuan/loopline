@@ -1,6 +1,6 @@
 {
   "name": "loopline",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An ORM wrapper based on loopback juggler for node.js",
   "homepage": "",
   "author": {
@@ -16,6 +16,14 @@
     "loopback",
     "juggler"
   ],
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "debug": "^2.2.0",
+    "lodash": "^4.12.0",
+    "loopback-datasource-juggler": "^2.46.0",
+    "toposort": "^0.2.12",
+    "underscore.string": "^3.3.4"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.1.0",
@@ -40,13 +48,5 @@
   "scripts": {
     "test": "gulp"
   },
-  "license": "MIT",
-  "dependencies": {
-    "async": "^2.0.0-rc.4",
-    "debug": "^2.2.0",
-    "lodash": "^4.12.0",
-    "loopback-datasource-juggler": "^2.46.0",
-    "toposort": "^0.2.12",
-    "underscore.string": "^3.3.4"
-  }
+  "license": "MIT"
 }
