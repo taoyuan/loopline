@@ -1,0 +1,52 @@
+{
+  "name": "loopline",
+  "version": "0.0.0",
+  "description": "An ORM wrapper based on loopback juggler for node.js",
+  "homepage": "",
+  "author": {
+    "name": "Yuan Tao",
+    "email": "towyuan@outlook.com",
+    "url": ""
+  },
+  "main": "lib/loopline.js",
+  "keywords": [
+    "orm",
+    "database",
+    "redis",
+    "loopback",
+    "juggler"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.13.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "mocha": "^2.4.5"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "taoyuan/loopline",
+  "scripts": {
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "debug": "^2.2.0",
+    "lodash": "^4.12.0",
+    "loopback-datasource-juggler": "^2.46.0",
+    "toposort": "^0.2.12",
+    "underscore.string": "^3.3.4"
+  }
+}
