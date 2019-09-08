@@ -1,4 +1,7 @@
 # loopline [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/loopline.svg)](https://greenkeeper.io/)
+
 > An ORM wrapper based on loopback juggler for node.js
 
 ## Installation
